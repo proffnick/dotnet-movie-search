@@ -1,0 +1,124 @@
+# Directories to ignore
+**/bin/
+**/obj/
+**/out/
+**/[Oo]bj/
+**/[Bb]in/
+**/[Ll]ogs/
+**/[Tt]est[Rr]esult*/
+
+# Visual Studio and Rider specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.idea/
+*.vs/
+*.vscode/
+_ReSharper.*/
+*.csproj.DotSettings.user
+
+# Rider Mono specific
+mono_crash.*
+
+# Files built by Visual Studio
+*.[Pp]ublish.xml
+*.app.publish/
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# NuGet
+packages/
+**/[Pp]ackage[Rr]estore.config
+**/*.[Cc]ache
+**/[Nn]u[Gg]et[Cc]onfig.*
+**/[Nn]u[Gg]et[Tt]argets.*
+**/[Pp]roject[Ll]ock[Jj]son
+global.json
+
+# Runtimes
+runtimes/
+
+# ReSharper
+_ReSharper.*
+*.DotSettings
+
+# User-specific files
+*.rsuser
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015+ cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+GeneratedFiles/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by dnu
+$tf/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Core default web app content
+wwwroot/
+!wwwroot/favicon.ico
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mac-specific files/directories
+.DS_Store
