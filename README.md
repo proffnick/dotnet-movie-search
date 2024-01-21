@@ -39,9 +39,7 @@ This project is a .NET Core 8.0 Web API application that demonstrates a simple b
 ### `Clone the Repository as above`
 To get started with this project, first clone the repository to your local machine:
 
-```git clone [https://github.com/proffnick/dotnet-movie-search.git](https://github.com/proffnick/dotnet-movie-search.git)
-
-cd dotnet-movie-search```
+```git clone [https://github.com/proffnick/dotnet-movie-search.git](https://github.com/proffnick/dotnet-movie-search.git) \ cd dotnet-movie-search```
 
 ### `Setup the Database`
 Ensure you have PostgreSQL installed and running. Create a new database and update the connection string in `appsettings.json.`
